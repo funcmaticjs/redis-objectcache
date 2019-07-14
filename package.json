@@ -1,0 +1,28 @@
+{
+  "name": "@funcmaticjs/redis-objectcache",
+  "version": "0.0.1",
+  "description": "A simple wrapper around the redis client that lets you directly get and set JSON objects using async/await",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "package": "package"
+  },
+  "keywords": [],
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "homepage": "https://github.com/funcmaticjs/redis-objectcache",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/redis-objectcache.git"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0",
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

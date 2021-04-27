@@ -16,7 +16,7 @@
     "url": "https://github.com/funcmaticjs/redis-objectcache.git"
   },
   "dependencies": {
-    "redis": "^2.8.0"
+    "redis": "^3.1.1"
   },
   "devDependencies": {
     "dotenv": "^8.0.0",
